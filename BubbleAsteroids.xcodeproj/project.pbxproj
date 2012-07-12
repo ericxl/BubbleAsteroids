@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07529D2C15AE870900E06931 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07529D2B15AE870900E06931 /* Cocoa.framework */; };
+		07529D3615AE870900E06931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07529D3415AE870900E06931 /* InfoPlist.strings */; };
+		07529D3815AE870900E06931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07529D3715AE870900E06931 /* main.m */; };
+		07529D3C15AE870900E06931 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07529D3A15AE870900E06931 /* Credits.rtf */; };
+		07529D3F15AE870900E06931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07529D3E15AE870900E06931 /* AppDelegate.m */; };
+		07529D4215AE870900E06931 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07529D4015AE870900E06931 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07529D2715AE870900E06931 /* BubbleAsteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleAsteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07529D2B15AE870900E06931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07529D2E15AE870900E06931 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07529D2F15AE870900E06931 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07529D3015AE870900E06931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07529D3315AE870900E06931 /* BubbleAsteroids-Info.plist */ = {isa = PBXFileReference; path = "BubbleAsteroids-Info.plist"; sourceTree = "<group>"; };
+		07529D3515AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07529D3715AE870900E06931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07529D3915AE870900E06931 /* BubbleAsteroids-Prefix.pch */ = {isa = PBXFileReference; path = "BubbleAsteroids-Prefix.pch"; sourceTree = "<group>"; };
+		07529D3B15AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07529D3D15AE870900E06931 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07529D3E15AE870900E06931 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07529D4115AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07529D2415AE870900E06931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07529D2C15AE870900E06931 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07529D1C15AE870900E06931 = {
+			isa = PBXGroup;
+			children = (
+				07529D3115AE870900E06931 /* BubbleAsteroids */,
+				07529D2A15AE870900E06931 /* Frameworks */,
+				07529D2815AE870900E06931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07529D2815AE870900E06931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07529D2715AE870900E06931 /* BubbleAsteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07529D2A15AE870900E06931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07529D2B15AE870900E06931 /* Cocoa.framework */,
+				07529D2D15AE870900E06931 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07529D2D15AE870900E06931 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07529D2E15AE870900E06931 /* AppKit.framework */,
+				07529D2F15AE870900E06931 /* CoreData.framework */,
+				07529D3015AE870900E06931 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07529D3115AE870900E06931 /* BubbleAsteroids */ = {
+			isa = PBXGroup;
+			children = (
+				07529D3D15AE870900E06931 /* AppDelegate.h */,
+				07529D3E15AE870900E06931 /* AppDelegate.m */,
+				07529D4015AE870900E06931 /* MainMenu.xib */,
+				07529D3215AE870900E06931 /* Supporting Files */,
+			);
+			path = BubbleAsteroids;
+			sourceTree = "<group>";
+		};
+		07529D3215AE870900E06931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07529D3315AE870900E06931 /* BubbleAsteroids-Info.plist */,
+				07529D3415AE870900E06931 /* InfoPlist.strings */,
+				07529D3715AE870900E06931 /* main.m */,
+				07529D3915AE870900E06931 /* BubbleAsteroids-Prefix.pch */,
+				07529D3A15AE870900E06931 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07529D2615AE870900E06931 /* BubbleAsteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07529D4515AE870900E06931 /* Build configuration list for PBXNativeTarget "BubbleAsteroids" */;
+			buildPhases = (
+				07529D2315AE870900E06931 /* Sources */,
+				07529D2415AE870900E06931 /* Frameworks */,
+				07529D2515AE870900E06931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleAsteroids;
+			productName = BubbleAsteroids;
+			productReference = 07529D2715AE870900E06931 /* BubbleAsteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07529D1E15AE870900E06931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "St.Stephen's";
+			};
+			buildConfigurationList = 07529D2115AE870900E06931 /* Build configuration list for PBXProject "BubbleAsteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07529D1C15AE870900E06931;
+			productRefGroup = 07529D2815AE870900E06931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07529D2615AE870900E06931 /* BubbleAsteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07529D2515AE870900E06931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07529D3615AE870900E06931 /* InfoPlist.strings in Resources */,
+				07529D3C15AE870900E06931 /* Credits.rtf in Resources */,
+				07529D4215AE870900E06931 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07529D2315AE870900E06931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07529D3815AE870900E06931 /* main.m in Sources */,
+				07529D3F15AE870900E06931 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07529D3415AE870900E06931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07529D3515AE870900E06931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07529D3A15AE870900E06931 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07529D3B15AE870900E06931 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07529D4015AE870900E06931 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07529D4115AE870900E06931 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07529D4315AE870900E06931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07529D4415AE870900E06931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07529D4615AE870900E06931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleAsteroids/BubbleAsteroids-Prefix.pch";
+				INFOPLIST_FILE = "BubbleAsteroids/BubbleAsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07529D4715AE870900E06931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleAsteroids/BubbleAsteroids-Prefix.pch";
+				INFOPLIST_FILE = "BubbleAsteroids/BubbleAsteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07529D2115AE870900E06931 /* Build configuration list for PBXProject "BubbleAsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07529D4315AE870900E06931 /* Debug */,
+				07529D4415AE870900E06931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07529D4515AE870900E06931 /* Build configuration list for PBXNativeTarget "BubbleAsteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07529D4615AE870900E06931 /* Debug */,
+				07529D4715AE870900E06931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07529D1E15AE870900E06931 /* Project object */;
+}
