@@ -11,8 +11,21 @@
 		07529D3615AE870900E06931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07529D3415AE870900E06931 /* InfoPlist.strings */; };
 		07529D3815AE870900E06931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07529D3715AE870900E06931 /* main.m */; };
 		07529D3C15AE870900E06931 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07529D3A15AE870900E06931 /* Credits.rtf */; };
-		07529D3F15AE870900E06931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07529D3E15AE870900E06931 /* AppDelegate.m */; };
 		07529D4215AE870900E06931 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07529D4015AE870900E06931 /* MainMenu.xib */; };
+		07529D4915AE871700E06931 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07529D4815AE871700E06931 /* OpenGL.framework */; };
+		0774616C15B25E680023C773 /* Fanticia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0774616B15B25E680023C773 /* Fanticia.mp3 */; };
+		07A5455715AF5E5F00AF5B1F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A5455415AF5E5300AF5B1F /* GLUT.framework */; };
+		07C1C58815AF4D8C004BB772 /* YouWinLabel.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58015AF4D8C004BB772 /* YouWinLabel.bmp */; };
+		07C1C58915AF4D8C004BB772 /* HelpInfo.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58115AF4D8C004BB772 /* HelpInfo.bmp */; };
+		07C1C58A15AF4D8C004BB772 /* YouLoseLabel.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58215AF4D8C004BB772 /* YouLoseLabel.bmp */; };
+		07C1C58B15AF4D8C004BB772 /* HelpQuestionMark.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58315AF4D8C004BB772 /* HelpQuestionMark.bmp */; };
+		07C1C58D15AF4D8C004BB772 /* AsteroidsMenu.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58515AF4D8C004BB772 /* AsteroidsMenu.bmp */; };
+		07C1C58E15AF4D8C004BB772 /* BubbleAsteroids.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58615AF4D8C004BB772 /* BubbleAsteroids.bmp */; };
+		07C1C58F15AF4D8C004BB772 /* Star.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07C1C58715AF4D8C004BB772 /* Star.bmp */; };
+		07E1D00115DCF389006D9188 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1D00015DCF389006D9188 /* GameView.m */; };
+		07E1D00915DCF3B1006D9188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E1D00815DCF3B1006D9188 /* AppDelegate.m */; };
+		07EB4C2A15B07A5D00CFCE17 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07EB4C2915B07A5D00CFCE17 /* pop.wav */; };
+		07FEB76815B240B9007DF008 /* ThanksTo.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB76715B240B9007DF008 /* ThanksTo.bmp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +34,28 @@
 		07529D2E15AE870900E06931 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		07529D2F15AE870900E06931 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		07529D3015AE870900E06931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		07529D3315AE870900E06931 /* BubbleAsteroids-Info.plist */ = {isa = PBXFileReference; path = "BubbleAsteroids-Info.plist"; sourceTree = "<group>"; };
+		07529D3315AE870900E06931 /* BubbleAsteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleAsteroids-Info.plist"; sourceTree = "<group>"; };
 		07529D3515AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07529D3715AE870900E06931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07529D3915AE870900E06931 /* BubbleAsteroids-Prefix.pch */ = {isa = PBXFileReference; path = "BubbleAsteroids-Prefix.pch"; sourceTree = "<group>"; };
+		07529D3915AE870900E06931 /* BubbleAsteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleAsteroids-Prefix.pch"; sourceTree = "<group>"; };
 		07529D3B15AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		07529D3D15AE870900E06931 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		07529D3E15AE870900E06931 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07529D4115AE870900E06931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07529D4815AE871700E06931 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		07529D4A15AE873100E06931 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		0774616B15B25E680023C773 /* Fanticia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fanticia.mp3; sourceTree = "<group>"; };
+		07A5455415AF5E5300AF5B1F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		07C1C58015AF4D8C004BB772 /* YouWinLabel.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = YouWinLabel.bmp; sourceTree = "<group>"; };
+		07C1C58115AF4D8C004BB772 /* HelpInfo.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = HelpInfo.bmp; sourceTree = "<group>"; };
+		07C1C58215AF4D8C004BB772 /* YouLoseLabel.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = YouLoseLabel.bmp; sourceTree = "<group>"; };
+		07C1C58315AF4D8C004BB772 /* HelpQuestionMark.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = HelpQuestionMark.bmp; sourceTree = "<group>"; };
+		07C1C58515AF4D8C004BB772 /* AsteroidsMenu.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = AsteroidsMenu.bmp; sourceTree = "<group>"; };
+		07C1C58615AF4D8C004BB772 /* BubbleAsteroids.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = BubbleAsteroids.bmp; sourceTree = "<group>"; };
+		07C1C58715AF4D8C004BB772 /* Star.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Star.bmp; sourceTree = "<group>"; };
+		07E1D00015DCF389006D9188 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		07E1D00715DCF3B1006D9188 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07E1D00815DCF3B1006D9188 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07EB4C2915B07A5D00CFCE17 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		07FEB76715B240B9007DF008 /* ThanksTo.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = ThanksTo.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A5455715AF5E5F00AF5B1F /* GLUT.framework in Frameworks */,
+				07529D4915AE871700E06931 /* OpenGL.framework in Frameworks */,
 				07529D2C15AE870900E06931 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +92,8 @@
 		07529D2A15AE870900E06931 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07A5455415AF5E5300AF5B1F /* GLUT.framework */,
+				07529D4815AE871700E06931 /* OpenGL.framework */,
 				07529D2B15AE870900E06931 /* Cocoa.framework */,
 				07529D2D15AE870900E06931 /* Other Frameworks */,
 			);
@@ -82,9 +113,11 @@
 		07529D3115AE870900E06931 /* BubbleAsteroids */ = {
 			isa = PBXGroup;
 			children = (
-				07529D3D15AE870900E06931 /* AppDelegate.h */,
-				07529D3E15AE870900E06931 /* AppDelegate.m */,
+				07E1D00715DCF3B1006D9188 /* AppDelegate.h */,
+				07E1D00815DCF3B1006D9188 /* AppDelegate.m */,
 				07529D4015AE870900E06931 /* MainMenu.xib */,
+				07529D4A15AE873100E06931 /* GameView.h */,
+				07E1D00015DCF389006D9188 /* GameView.m */,
 				07529D3215AE870900E06931 /* Supporting Files */,
 			);
 			path = BubbleAsteroids;
@@ -93,6 +126,16 @@
 		07529D3215AE870900E06931 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0774616B15B25E680023C773 /* Fanticia.mp3 */,
+				07EB4C2915B07A5D00CFCE17 /* pop.wav */,
+				07C1C58015AF4D8C004BB772 /* YouWinLabel.bmp */,
+				07FEB76715B240B9007DF008 /* ThanksTo.bmp */,
+				07C1C58115AF4D8C004BB772 /* HelpInfo.bmp */,
+				07C1C58215AF4D8C004BB772 /* YouLoseLabel.bmp */,
+				07C1C58315AF4D8C004BB772 /* HelpQuestionMark.bmp */,
+				07C1C58515AF4D8C004BB772 /* AsteroidsMenu.bmp */,
+				07C1C58615AF4D8C004BB772 /* BubbleAsteroids.bmp */,
+				07C1C58715AF4D8C004BB772 /* Star.bmp */,
 				07529D3315AE870900E06931 /* BubbleAsteroids-Info.plist */,
 				07529D3415AE870900E06931 /* InfoPlist.strings */,
 				07529D3715AE870900E06931 /* main.m */,
@@ -128,7 +171,7 @@
 		07529D1E15AE870900E06931 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "St.Stephen's";
 			};
 			buildConfigurationList = 07529D2115AE870900E06931 /* Build configuration list for PBXProject "BubbleAsteroids" */;
@@ -156,6 +199,16 @@
 				07529D3615AE870900E06931 /* InfoPlist.strings in Resources */,
 				07529D3C15AE870900E06931 /* Credits.rtf in Resources */,
 				07529D4215AE870900E06931 /* MainMenu.xib in Resources */,
+				07C1C58815AF4D8C004BB772 /* YouWinLabel.bmp in Resources */,
+				07C1C58915AF4D8C004BB772 /* HelpInfo.bmp in Resources */,
+				07C1C58A15AF4D8C004BB772 /* YouLoseLabel.bmp in Resources */,
+				07C1C58B15AF4D8C004BB772 /* HelpQuestionMark.bmp in Resources */,
+				07C1C58D15AF4D8C004BB772 /* AsteroidsMenu.bmp in Resources */,
+				07C1C58E15AF4D8C004BB772 /* BubbleAsteroids.bmp in Resources */,
+				07C1C58F15AF4D8C004BB772 /* Star.bmp in Resources */,
+				07EB4C2A15B07A5D00CFCE17 /* pop.wav in Resources */,
+				07FEB76815B240B9007DF008 /* ThanksTo.bmp in Resources */,
+				0774616C15B25E680023C773 /* Fanticia.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07529D3815AE870900E06931 /* main.m in Sources */,
-				07529D3F15AE870900E06931 /* AppDelegate.m in Sources */,
+				07E1D00115DCF389006D9188 /* GameView.m in Sources */,
+				07E1D00915DCF3B1006D9188 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +260,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -222,7 +276,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -233,7 +287,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -243,7 +297,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -251,6 +305,8 @@
 		07529D4615AE870900E06931 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BubbleAsteroids/BubbleAsteroids-Prefix.pch";
 				INFOPLIST_FILE = "BubbleAsteroids/BubbleAsteroids-Info.plist";
@@ -262,6 +318,8 @@
 		07529D4715AE870900E06931 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BubbleAsteroids/BubbleAsteroids-Prefix.pch";
 				INFOPLIST_FILE = "BubbleAsteroids/BubbleAsteroids-Info.plist";
@@ -289,6 +347,7 @@
 				07529D4715AE870900E06931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
